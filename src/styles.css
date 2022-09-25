@@ -1,0 +1,80 @@
+:root{
+    --font-big: 32px;
+    --font-middle: 16px;
+    --font-small: 12px;
+    --font-smaller: 7px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.7rem;
+    box-shadow: 0 3px 5px rgba(252, 99, 99, 0.548);
+    background-color: rgb(252, 99, 99);
+}
+
+nav h4 {
+    font-weight: 600;
+}
+
+nav img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.placesContainer{
+    margin-inline: 15%;
+    margin-top: 5rem;
+}
+
+.place{
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+    border-radius: 5%;
+    background-color: rgba(255, 228, 196, 0.925);
+}
+
+.place img{
+    max-width: 100%;
+}
+
+.imgContainer{
+    text-align: center;
+}
+
+.locationContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    color: rgb(173, 54, 54);
+    font-weight: 600;
+    margin-bottom: -0.5rem;
+    margin-left: -0.2rem;
+}
+
+.mapLink {
+    text-align:right;
+    font-size: smaller;
+}
+
+footer{
+    margin-block: 1rem;
+    text-align: center;
+    font-size: smaller;
+}
+
+@media screen and (max-width: 500px) {
+    .placesContainer{
+        margin-inline: 5%;
+        margin-top: 4.3rem;
+    }
+
+    .place{
+        margin-top: 1rem;
+    }
+}
